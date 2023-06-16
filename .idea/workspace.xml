@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="removed test comment">
-      <change afterPath="$PROJECT_DIR$/src/backend/Palette.java" afterDir="false" />
+    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="implemented Palette class">
+      <change afterPath="$PROJECT_DIR$/src/backend/ErrorDiffusion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/backend/ThresholdDithering.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/DitheringAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/DitheringAlgo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686933602209</updated>
-      <workItem from="1686933603590" duration="1271000" />
+      <workItem from="1686933603590" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="created DitheringAlgo abstract class">
       <created>1686933730885</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686934114785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="implemented Palette class">
+      <created>1686934910134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686934910134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +118,7 @@
     <MESSAGE value="added processPixel abstract method" />
     <MESSAGE value="test push" />
     <MESSAGE value="removed test comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed test comment" />
+    <MESSAGE value="implemented Palette class" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Palette class" />
   </component>
 </project>
