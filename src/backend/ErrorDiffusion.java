@@ -52,42 +52,4 @@ public class ErrorDiffusion extends DitheringAlgo {
             }
         }
     }
-
-
-    public static void main(String[] args) {
-
-        int[][] testKernel = new int[][] {
-                {0,0,1},
-                {2,3,4},
-        };
-
-        int[][][] testImage = new int[][][] {
-                {{},{},{},{},       {},     {},     {}},
-                {{},{},{},{0,0,0},  {0,0,0},{4,4,4},{}},
-                {{},{},{},{5,5,5},  {1,2,3},{7,7,7},{}},
-                {{},{},{},{},       {},     {},     {}},
-                {{},{},{},{},       {},     {},     {}},
-        };
-
-        ErrorDiffusion ed = new ErrorDiffusion(testKernel);
-        ed.kernelSum = 2;
-
-        ed.spreadError(testImage, 1, 4, new int[]{10,20,30});
-
-        for (int i = 0; i < testImage.length; i++) {
-            System.out.println();
-            for (int j = 0; j < testImage[i].length; j++) {
-                System.out.print("{");
-                for (int k = 0; k < testImage[i][j].length; k++) {
-                    System.out.print(testImage[i][j][k]);
-                    System.out.print(",");
-                }
-                System.out.print("}         ");
-            }
-        }
-
-
-    }
-
-
 }

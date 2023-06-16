@@ -59,24 +59,4 @@ public class ImageReaderWriter {
             e.printStackTrace();
         }
     }
-
-
-    public static void main(String[] args) {
-        int[][][] image = ImageReaderWriter.loadImageAsArray("C:\\Users\\skr3w\\OneDrive\\Pictures\\test.png");
-
-        for (int i = 0; i < image.length; i++) {
-            System.out.println();
-            for (int j = 0; j < image[i].length; j++) {
-                System.out.print("{");
-                for (int k = 0; k < image[i][j].length; k++) {
-                    System.out.print(image[i][j][k]);
-                    System.out.print(",");
-                }
-                System.out.print("}         ");
-            }
-        }
-
-        ImageReaderWriter.writeArrayToImage(image, "C:\\Users\\skr3w\\OneDrive\\Pictures\\test2.png");
-    }
-
 }
