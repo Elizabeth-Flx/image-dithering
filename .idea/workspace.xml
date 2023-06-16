@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="added processPixel abstract method">
-      <change beforePath="$PROJECT_DIR$/src/backend/DitheringAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/DitheringAlgo.java" afterDir="false" />
+    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="removed test comment">
+      <change afterPath="$PROJECT_DIR$/src/backend/Palette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686933602209</updated>
-      <workItem from="1686933603590" duration="450000" />
+      <workItem from="1686933603590" duration="1271000" />
     </task>
     <task id="LOCAL-00001" summary="created DitheringAlgo abstract class">
       <created>1686933730885</created>
@@ -72,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686933867744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test push">
+      <created>1686934073996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686934073996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="removed test comment">
+      <created>1686934114785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686934114785</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created DitheringAlgo abstract class" />
     <MESSAGE value="added processPixel abstract method" />
-    <option name="LAST_COMMIT_MESSAGE" value="added processPixel abstract method" />
+    <MESSAGE value="test push" />
+    <MESSAGE value="removed test comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed test comment" />
   </component>
 </project>
