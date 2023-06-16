@@ -77,8 +77,6 @@ public class ImageReaderWriter {
         }
 
         ImageReaderWriter.writeArrayToImage(image, "C:\\Users\\skr3w\\OneDrive\\Pictures\\test2.png");
-
-
     }
 
 }

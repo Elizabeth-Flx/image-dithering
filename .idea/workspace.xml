@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="Added method that processes the full image">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/ImageReaderWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/backend/ThresholdDithering.java" afterDir="false" />
+    <list default="true" id="6e90c300-f8ce-48ad-a01c-486ba1e5d890" name="Changes" comment="Added method that can read and write an image">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/ImageReaderWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/ImageReaderWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/backend/Palette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/backend/Palette.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +48,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.editor",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1686933602209</updated>
-      <workItem from="1686933603590" duration="8616000" />
+      <workItem from="1686933603590" duration="11399000" />
     </task>
     <task id="LOCAL-00001" summary="created DitheringAlgo abstract class">
       <created>1686933730885</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686948510906</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added method that can read and write an image">
+      <created>1686953762769</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686953762769</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +143,7 @@
     <MESSAGE value="implemented Palette class" />
     <MESSAGE value="implemeted ErrorDiffusion class" />
     <MESSAGE value="Added method that processes the full image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added method that processes the full image" />
+    <MESSAGE value="Added method that can read and write an image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added method that can read and write an image" />
   </component>
 </project>
