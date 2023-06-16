@@ -12,7 +12,7 @@ public abstract class DitheringAlgo {
 
     public void processFullImage(int[][][] image, Palette palette) {
         for (int x = 0; x < image.length; x++) {
-            for (int y = 0; y < image.length; y++) {
+            for (int y = 0; y < image[x].length; y++) {
                 processPixel(image, x, y, palette);
             }
         }
